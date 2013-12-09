@@ -10,7 +10,7 @@ Ext.define('MeetingRegistrationMobile.view.Main', {
 
         items: [
             {
-                title: 'Welcome',
+                title: 'Badge',
                 iconCls: 'home',
 
                 styleHtmlContent: true,
@@ -19,7 +19,7 @@ Ext.define('MeetingRegistrationMobile.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
+                    title: 'NITAAC Contract Holders Meeting'
                 },
 
                 html: [
@@ -29,7 +29,7 @@ Ext.define('MeetingRegistrationMobile.view.Main', {
                 ].join("")
             },
             {
-                title: 'Get Started',
+                title: 'Agenda',
                 iconCls: 'action',
 
                 items: [
